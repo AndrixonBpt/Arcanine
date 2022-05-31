@@ -1,7 +1,11 @@
-import { iniciar, usuario } from "./Funciones/iniciar.js";
+import { iniciar} from "./Funciones/iniciar.js";
 import { personaje } from "./Funciones/personajes.js";
 
- const arcanineFirma = `
+
+
+
+
+const arcanineFirma = `
     _________________________$$$$$_________________________
     ________________________$$$$$$$________________________
     _______________________$$$$$$$$$_______________________
@@ -49,6 +53,32 @@ import { personaje } from "./Funciones/personajes.js";
 console.log(arcanineFirma);
 
 iniciar();
+
+let player1
+function usuario() {
+    let i=1
+    player1= prompt("Escribe el nombre de usuario");
+     while (i>0 && i<3) {
+        let respuestaUser= prompt(
+        `Tu nombre de usuario es ${player1} ¿Es correcto? 1
+        1. Si 
+        2. No`);
+              let i = parseInt(respuestaUser); 
+           if (i === 1) {
+              alert("Bienvenido ;D")
+              break
+           }
+           else if (i === 2) {
+              alert("ok");
+              player1=prompt("Escribe el nombre de usuario")
+           }
+           else {
+              alert('ingresa un valor correcto 1=si 2=no');
+           }
+     } 
+     return alert(`Tu nombre de usuario es ${player1}`);
+  };
+
 usuario();
 personaje();
 
@@ -86,10 +116,11 @@ function historia () {
      y montañas tan rápida como los insectos y han logrado conseguir una fuerza sobre humana.
     Pero en sus intentos por destruir a los necrones ha fallado. Han perdido incontables vidas
     y hasta la actualidad no han logrado matar a ningún necron.`
-    let hist9 = `${player1}un viajero de 235 años ha entrenado durante 58 años en la caverna unkown,
+    let hist9 = `${player1} un viajero de 235 años ha entrenado durante 58 años en la caverna unkown,
      dentro se ha preparado, físicamente con el plan de destruir a los necrones.  
-    ACTUALIDAD
-    `
+    ACTUALIDAD`
     alert(hist9)
 }
 historia()
+
+// Batalla1 

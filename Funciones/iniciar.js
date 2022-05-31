@@ -32,31 +32,4 @@ export function iniciar() {
          alert("no ingresaste un valor correcto intenta de nuevo");
       }
    } while (i < 1);
-};
-
-
-
-export function usuario() {
-
-  let i=1
-  var player1= prompt("Escribe el nombre de usuario");
-   while (i>0 && i<3) {
-      let respuestaUser= prompt(
-      `Tu nombre de usuario es ${player1} ¿Es correcto? 1
-      1. Si 
-      2. No`);
-            let i = parseInt(respuestaUser); 
-         if (i === 1) {
-            alert("Bienvenido ;D")
-            break
-         }
-         else if (i === 2) {
-            alert("ok");
-            player1=prompt("Escribe el nombre de usuario")
-         }
-         else {
-            alert('ingresa un valor correcto 1=si 2=no');
-         }
-   } 
-   return alert(`Tu nombre de usuario es ${player1}`);
-};
+}
