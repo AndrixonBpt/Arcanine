@@ -1,12 +1,12 @@
 // poder del hombre
-let puñodeFuerza
-let patadaRapida
-let cabezazo
-let destelloVeloz
+ puñodeFuerza
+ patadaRapida
+ cabezazo
+ destelloVeloz
 
 // poderNecrones
 
-let garralarga
-let coletazo
-let ejecuciónEnConjunto
-let rafaga
+ garralarga
+ coletazo
+ ejecuciónEnConjunto
+ rafaga
