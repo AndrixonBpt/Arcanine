@@ -286,20 +286,20 @@ function turnoUser(){
    do 
    if (turnoUsuario==="1") {
        poderAtq=batallaUserACom1();
-       alert(`tu ataque fue puño de fuerza daño: ${poderAtq}`)
-       alert(`vida de Necron: ${computadora1VidaTotal}`);
+       alert(`tu ataque fue puño de fuerza daño: ${poderAtq}
+       vida de Necron: ${computadora1VidaTotal}`)
        break
    }
    else if (turnoUsuario==="2"){
        poderAtq=batallaUserACom2();
-       alert(`tu ataque fue Patada Rapida daño: ${poderAtq}`)
-       alert(`vida del Necron: ${computadora1VidaTotal}`);
+       alert(`tu ataque fue Patada Rapida daño: ${poderAtq} 
+       vida del Necron: ${computadora1VidaTotal}`)
        break
    }
    else if (turnoUsuario==="3"){
        poderAtq=batallaUserACom3();
-       alert(`tu ataque fue Cabezazo daño: ${poderAtq}`)
-       alert(`vida del Necron: ${computadora1VidaTotal}`);
+       alert(`tu ataque fue Cabezazo daño: ${poderAtq} 
+       vida del Necron: ${computadora1VidaTotal}`)
        break
    }
    else {
@@ -320,23 +320,24 @@ function turnoCom() {
    let i = numeroAzar(1, 5);
    if (i===1){ 
        poderatq = batallaComAUser1()
-       alert(`Necron uso garra larga daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje1VidaTotal}`)
+       alert(`Necron uso garra larga daño ${poderatq}
+       vida de ${player1}: ${personaje1VidaTotal}`)
+       alert()
    }
    else if (i===2){
        poderatq = batallaComAUser2()
-       alert(`Necron uso coletazo daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje1VidaTotal}`)
+       alert(`Necron uso coletazo daño ${poderatq}
+       vida de ${player1}: ${personaje1VidaTotal}`)
    }
    else if (i===3){
        poderatq = batallaComAUser3()
-       alert(`Necron uso coletazo daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje1VidaTotal}`)
+       alert(`Necron uso coletazo daño ${poderatq}
+       vida de ${player1}: ${personaje1VidaTotal}`)
    }
    else if (i===4){
        poderatq = batallaComAUser4()
-       alert(`Necron uso ejecución en conjunto daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje1VidaTotal}`)
+       alert(`Necron uso ejecución en conjunto daño ${poderatq}
+       vida de ${player1}: ${personaje1VidaTotal}`)
    }
    else {
        alert("fail")
@@ -417,26 +418,26 @@ historia1()
    do 
    if (turnoUsuario==="1") {
        poderAtq=batallaUserACom1();
-       alert(`tu ataque fue puño de fuerza daño: ${poderAtq}`)
-       alert(`vida de Necron: ${computadora2VidaTotal}`);
+       alert(`tu ataque fue puño de fuerza daño: ${poderAtq}
+       vida de Necron: ${computadora2VidaTotal}`);
        break
    }
    else if (turnoUsuario==="2"){
        poderAtq=batallaUserACom2();
-       alert(`tu ataque fue Patada Rapida daño: ${poderAtq}`)
-       alert(`vida del Necron: ${computadora2VidaTotal}`);
+       alert(`tu ataque fue Patada Rapida daño: ${poderAtq}
+       vida del Necron: ${computadora2VidaTotal}`);
        break
    }
    else if (turnoUsuario==="3"){
        poderAtq=batallaUserACom3();
-       alert(`tu ataque fue Cabezazo daño: ${poderAtq}`)
-       alert(`vida del Necron: ${computadora2VidaTotal}`);
+       alert(`tu ataque fue Cabezazo daño: ${poderAtq}
+       vida del Necron: ${computadora2VidaTotal}`);
        break
    }
    else if (turnoUsuario==="4"){
        poderAtq=batallaUserACom4();
-       alert(`tu ataque fue ${ataqueEspecial} Veloz daño: ${poderAtq}`)
-       alert(`vida del Necron: ${computadora2VidaTotal}`);
+       alert(`tu ataque fue ${ataqueEspecial} Veloz daño: ${poderAtq}
+       vida del Necron: ${computadora2VidaTotal}`);
        break
    }
    else {
@@ -458,23 +459,23 @@ function turnoCom2() {
    let i = numeroAzar(1, 5);
    if (i===1){ 
        poderatq = batallaComAUser1()
-       alert(`Necron uso garra larga daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje2VidaTotal}`)
+       alert(`Necron uso garra larga daño ${poderatq}
+       vida de ${player1}: ${personaje2VidaTotal}`)
    }
    else if (i===2){
        poderatq = batallaComAUser2()
-       alert(`Necron uso coletazo daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje2VidaTotal}`)
+       alert(`Necron uso coletazo daño ${poderatq}
+       vida de ${player1}: ${personaje2VidaTotal}`)
    }
    else if (i===3){
        poderatq = batallaComAUser3()
-       alert(`Necron uso coletazo daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje2VidaTotal}`)
+       alert(`Necron uso coletazo daño ${poderatq}
+       vida de ${player1}: ${personaje2VidaTotal}`)
    }
    else if (i===4){
        poderatq = batallaComAUser4()
-       alert(`Necron uso ejecución en conjunto daño ${poderatq}`)
-       alert(`vida de ${player1}: ${personaje2VidaTotal}`)
+       alert(`Necron uso ejecución en conjunto daño ${poderatq}
+       vida de ${player1}: ${personaje2VidaTotal}`)
    }
    else {
        alert("fail")
